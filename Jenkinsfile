@@ -21,7 +21,7 @@ pipeline {
         }
     }
 
-    post{
+    post {
         failure {
             error 'Pipeline failed'
         }
